@@ -1,123 +1,87 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --blue: #2196f3;
+  --darkgrey: #2f303a;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: rgba(47, 48, 58, 1);
-  background-color: var(--lightgrey);
   font-size: 14px;
   letter-spacing: 0.03em;
+}
+
+/*powtarzające*/
+.no-line {
+  text-decoration: none;
+}
+.no-margin {
   margin: 0;
+}
+.no-padding {
   padding: 0;
 }
 /*menu-nav*/
-.nav {
+.wrapper {
   background-color: white;
   width: 1600px;
 }
-
-.nav-menu {
-  background: #ffffff;
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
   align-items: center;
   gap: 93px;
   flex-direction: row;
   padding: 25px 0 24px 0;
   display: flex;
-  width: 1200px;
 }
 .webstudio {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   border-style: none;
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
+  color: var(--black);
   font-size: 26px;
-  line-height: 31px;
+  font-weight: 700;
+  line-height: 1.193;
   letter-spacing: 0.03em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-decoration: none;
-  color: black;
 }
-
 .blue-text {
   color: blue;
 }
-
 .nav-list {
   display: flex;
   list-style: none;
-  line-height: 31px;
-  gap: 46px;
+  line-height: 1.2;
+  margin: 0;
 }
-
+.nav-style {
+  gap: 46px;
+  line-height: 1.2;
+  padding: 0;
+}
 .nav-link {
-  position: absolute;
-  width: 53px;
   height: 16px;
-  left: 453px;
-  top: 32px;
   font-weight: 500;
-  border-style: none;
-  text-decoration: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   display: flex;
   line-height: 1.2;
 }
 
-.nav-link-1 {
-  position: absolute;
-  width: 58px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-  font-weight: 500;
-  border-style: none;
-  text-decoration: none;
-  display: flex;
-  line-height: 1.2;
-}
-
-.nav-link-2 {
-  position: absolute;
-  width: 51px;
-  height: 16px;
-  left: 656px;
-  top: 32px;
-  gap: 46px;
-
-  border-style: none;
-  text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  display: flex;
-
-  color: #212121;
-}
-.nav-contact {
-  justify-content: flex-end;
-  color: gray;
-  font-weight: 500;
-  text-decoration: none;
-}
 /*contakty boczne*/
-.contact-list {
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
+.contact-style {
+  gap: 50px;
+  padding: 0 0 0 387px;
+  margin: 0;
 }
+
+.contact-link-style {
+  color: var(--grey);
+  font-weight: 500;
+}
+
 /*bg&button*/
 .title {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -125,18 +89,12 @@ body {
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: #ffffff;
+  color: var(--white);
 }
-.section-title {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-  border: 1p;
-  color: white;
+
+.section-top {
+  width: 100%;
+  color: var(--white);
   display: flex;
   gap: 30px;
   flex-direction: column;
@@ -144,25 +102,23 @@ body {
   align-items: center;
   padding: 200px 0;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background: rgba(47, 48, 58, 1);
+  background: var(--darkgrey);
 }
 .button {
-  position: absolute;
   width: 200px;
   height: 50px;
   font-weight: 700;
   font-size: 16px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: var(--blue);
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
-  font-family: "Roboto";
-  color: #ffffff;
+  color: var(--white);
 }
 
 /*Lorem list*/
-.container {
+.inna nazwa {
+  background: white;
   position: absolute;
   width: 1170px;
   height: 101px;
