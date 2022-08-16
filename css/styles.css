@@ -117,25 +117,6 @@ body {
 }
 
 /*Lorem list*/
-.inna nazwa {
-  background: white;
-  position: absolute;
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
-}
-
-.container-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2em;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
 .container-list {
   display: flex;
   list-style: none;
@@ -143,8 +124,17 @@ body {
   margin: 94px 0 0 0;
   gap: 30px;
   justify-content: center;
-  padding: 0;
 }
+.container-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
+  margin: 0 0 215px 0;
+}
+
 .container-title {
   font-weight: 700;
   color: #212121;
@@ -159,14 +149,10 @@ body {
   margin: 0;
 }
 /*czym sie zajmujemy*/
-.container-hobby {
-  position: absolute;
-  width: 1170px;
-  height: 386px;
-  left: 215px;
-  top: 969px;
+.hobby {
   align-items: center;
-  padding-top: 94px;
+  flex-direction: column;
+  padding: 94px 0;
 }
 .hobby-title {
   position: absolute;
