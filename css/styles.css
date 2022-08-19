@@ -8,7 +8,7 @@
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: rgba(47, 48, 58, 1);
+  color: var(--darkgrey);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -86,7 +86,7 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.364em;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white);
@@ -248,9 +248,10 @@ body {
   height: 38px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.625;
   border-radius: 4px;
   font-family: "Roboto";
+  padding: 0 20px;
 }
 .style-button:focus,
 .style-button:hover {
