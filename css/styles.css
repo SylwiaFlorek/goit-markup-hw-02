@@ -175,11 +175,19 @@ body {
   gap: 30px;
   list-style: none;
   justify-content: center;
+  background: var(--white);
 }
 .social-list-item {
   weight: 270px;
   height: 260px;
   list-style-type: none;
+}
+.list-design {
+  background-color: var(--white);
+  box-shadow: 0px 1px 3px rgb(201 45 45 / 12%), 0px 1px 1px rgb(197 197 197),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 .name-social {
   gap: 99px;
