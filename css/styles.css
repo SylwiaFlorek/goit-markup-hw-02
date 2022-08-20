@@ -2,7 +2,9 @@
   --white: #fff;
   --notwhite: #f5f4fa;
   --black: #000;
+  --notblack: #212121;
   --blue: #2196f3;
+  --gray: #757575;
   --darkgrey: #2f303a;
   --productborder: #eeeeee;
 }
@@ -50,7 +52,7 @@ body {
   letter-spacing: 0.03em;
 }
 .blue-text {
-  color: blue;
+  color: var(--blue);
 }
 .nav-list {
   display: flex;
@@ -69,6 +71,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   display: flex;
   line-height: 1.2;
+  color: var(--notblack);
 }
 
 /*contakty boczne*/
@@ -76,7 +79,7 @@ body {
   gap: 50px;
 }
 .contact-link-style {
-  color: var(--grey);
+  color: var(--gray);
   font-weight: 500;
 }
 
